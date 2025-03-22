@@ -1,0 +1,145 @@
+						var co = 0;
+						document.getElementById("qes2").style.display = "none";
+						document.getElementById("mobilenavss").style.display = "none";
+						function newmenu(){
+							document.getElementById("mobilenavss").style.display = "block";
+							document.getElementById("menus3bar").style.display = "none";
+							document.getElementById("start3").style.display = "none";
+						}
+						function closemwnu(){
+							document.getElementById("mobilenavss").style.display = "none";
+							document.getElementById("menus3bar").style.display = "block";
+							document.getElementById("start3").style.display = "block";
+						}
+						function req(){
+							let x = document.getElementById("fname").value;
+							let y = document.getElementById("email").value;
+							var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+							let z = document.getElementById("Mobile").value;
+							let a = document.getElementById("Country").value;
+							let xb = document.getElementById("city").value;
+							if(x != '' && y.match(validRegex) && z != '' && a != '' && xb != '' ){
+								alert("Successfully Submitted Thank you");
+								location.reload();
+								window.location.href = "index.html";
+
+							}
+						}
+						function quiz(){
+							alert("Are you sure, you want to start the quiz");
+							document.getElementById("starting").style.display = "none";
+							document.getElementById("mainquiz").style.display = "block";
+						}
+						function q1next(){
+							document.getElementById('qes1').style.display = "none";
+							document.getElementById("qes2").style.display = "block";
+						}
+						function q2next(){
+							document.getElementById('qes2').style.display = "none";
+							document.getElementById("qes3").style.display = "block";
+						}
+						function q3next(){
+							document.getElementById('qes3').style.display = "none";
+							document.getElementById("qes4").style.display = "block";
+						}
+						function q4next(){
+							document.getElementById('qes4').style.display = "none";
+							document.getElementById("qes5").style.display = "block";
+						}
+						function q5next(){
+							document.getElementById('qes5').style.display = "none";
+							document.getElementById("qes6").style.display = "block";
+						}
+						function q6next(){
+							document.getElementById('qes6').style.display = "none";
+							document.getElementById("qes7").style.display = "block";
+						}
+						function q7next(){
+							document.getElementById('qes7').style.display = "none";
+							document.getElementById("qes8").style.display = "block";
+						}
+						function q8next(){
+							document.getElementById('qes8').style.display = "none";
+							document.getElementById("qes9").style.display = "block";
+						}
+						function q9next(){
+							document.getElementById('qes9').style.display = "none";
+							document.getElementById("qes10").style.display = "block";
+						}
+						function q11next(){
+							document.getElementById('qes1').style.display = "none";
+							document.getElementById("qes2").style.display = "block";
+							co=co + 1;
+						}
+						function q22next(){
+							document.getElementById('qes2').style.display = "none";
+							document.getElementById("qes3").style.display = "block";
+							co=co + 1;
+						}
+						function q33next(){
+							document.getElementById('qes3').style.display = "none";
+							document.getElementById("qes4").style.display = "block";
+							co=co + 1;
+						}
+						function q44next(){
+							document.getElementById('qes4').style.display = "none";
+							document.getElementById("qes5").style.display = "block";
+							co=co + 1;
+						}
+						function q55next(){
+							document.getElementById('qes5').style.display = "none";
+							document.getElementById("qes6").style.display = "block";
+							co=co + 1;
+						}
+						function q66next(){
+							document.getElementById('qes6').style.display = "none";
+							document.getElementById("qes7").style.display = "block";
+							co=co + 1;
+						}
+						function q77next(){
+							document.getElementById('qes7').style.display = "none";
+							document.getElementById("qes8").style.display = "block";
+							co=co + 1;
+						}
+						function q88next(){
+							document.getElementById('qes8').style.display = "none";
+							document.getElementById("qes9").style.display = "block";
+							co=co + 1;
+						}
+						function q99next(){
+							document.getElementById('qes9').style.display = "none";
+							document.getElementById("qes10").style.display = "block";
+							co=co + 1;
+						}
+						function q100next(){
+							co=co + 1;
+							document.getElementById("subMi").style.display = "block";
+						}
+						function q10next(){
+							document.getElementById("subMi").style.display = "block";
+						}
+						function marks(){
+							document.getElementById("qes10").style.display = "none";
+							document.getElementById("finalsc").style.display = "block";
+							document.getElementById("scoress").innerHTML = co;
+						}
+
+						document.write(co)
+						const f = document.getElementById('form');
+      const q = document.getElementById('query');
+      const google = 'https://www.google.com/search?q=site%3A+';
+      const site = 'pagedart.com';
+
+      function submitted(event) {
+        event.preventDefault();
+        const url = google + site + '+' + q.value;
+        const win = window.open(url, '_blank');
+        win.focus();
+      }
+
+      f.addEventListener('submitsss', submitted);
+	  
+	  document.getElementById('timer').innerHTML =20 + ":" + 00;
+
+
+

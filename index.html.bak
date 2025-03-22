@@ -1,0 +1,238 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+		<link rel="stylesheet" href="STYLING.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+		<script src="contactus.js"></script>
+	</head>
+	
+	<body>
+		<header>
+			<nav style="background-color:white;">
+				<div class="container-fluid navss">
+					<div class="row">
+					<div class="col-sm-3  logo">
+						
+						
+						<h2 id="logo1" > <span style="font-size:45px;">&#8653</span><i>FAST-AID</i></h2>
+						  <div id="menus3bar"><a href="#" style="text-decoration:none;" onclick="newmenu()"><b>&#xFE19 </b> </a></div>
+						<div id="logo2"><p style="margin:0px;">   Be the first to help<p></div><br>
+						<p id="logo3" style="margin-top:0px;"><u><b>FIRST AID IS BETTER THAN LAST!</b></u></p>
+					</div>
+						<div class="col-sm-6">
+							<h1></h1>
+							<ul class="navs">
+							<a class="navsel" href="index.html" style="background-color:#0073d6;color:white;"><b>HOME</b></a>
+							<a class="navsel" href="aboutus.html"><b>ABOUTUS</b></a>
+							<a class="navsel" href="firstaid.html"><b>FIRSTAID</b></a>
+							<a class="navsel" href="contactus.html"><b>CONTACTUS</b></a>
+							<a class="navsel" href="resources.html" ><b>RESOURCES</b></a>
+							<a class="navsel" href="quiz.html"><b>QUIZ</b></a>
+							</ul>
+						</div>
+						<div class="col-sm-2 search1">
+							
+							<form class="navsearch">
+							<input id="query" type="text" class="form-control" placeholder="Search">
+							</form>
+							
+						</div>
+						<div class="col-sm-1 search2">
+							<button id="submitsss" type="submit" class="btn btn-primary" style="margin-top:40px;padding:10px;text-align:left;border-radius:25px;"><i class="fa fa-search"></i></button>
+						</div>
+						</div>
+						
+						
+						<div id="mobilenavss">
+			<h1 id="mbicancel1" style="text-align:right; line-height:1;" onclick="closemwnu()">
+				<b>&#9587;</b>
+			</h1>
+			<form id="manusearch"><br>
+			<input  type="text" style="width:80%;border:2px solid white;box-shadow:2px 1px 11px 2px #0073d6;" placeholder="   Search.." name="search">
+			<a type="submit"> <i class="fa fa-search" style="color:white;size:15px;background-color:#0073d6;padding:9px;border-radius:15px;" ></i></a><hr>
+			</form>
+			<a class="mobilenavssel" href="index.html" >Home</a><hr><br>
+			<a class="mobilenavssel" href="aboutus.html" >AboutUs</a><hr><br>
+			<a class="mobilenavssel" href="firstaid.html" >FirstAid</a><hr><br>
+			<a class="mobilenavssel" href="contactus.html" >ContactUs</a><hr><br>
+			<a class="mobilenavssel" href="resources.html" >Resources</a><hr><br>
+			<a class="mobilenavssel" href="quiz.html" >Quiz</a><br>
+		</div>
+						
+					</div>
+					<div class="navend" style="background-color:black;width:100%;height:1px;">
+				</div>
+				
+				</div>
+				
+			</nav>
+		</header>
+		
+		<div class="container main1">
+			<!-- <div id="main1btn">
+				<input id="searchmain" type="text" placeholder="    FirstAid...."></input>
+				<a onclick="searchss()" id="main2btn"><b>Search</b></a>
+			</div>-->
+		</div>
+		<br>
+		<br>
+		<div class="container info1"><br>
+			<div class="row">
+				<div class="col-sm-1"></div>
+				<div class="col-sm-4 imgsss">
+					<img src="img9.png" style="width:390px;">
+				</div>
+				<div class="col-sm-6">
+				<h1><b>WHAT IS <span style="color:#0073d6;">FIRSTAID?</span></b></h1><br>
+				<h4>First aid is the assistance given to any person suffering a sudden illness or injury</h4><br>
+				<p style="color:#5c5c5c;">First aid refers to the emergency or immediate care you should provide when a person is injured or ill until full medical treatment is available. For minor conditions, first aid care may be enough. For serious problems, first aid care should be continued until more advanced care becomes available.The decision to act appropriately with first aid can mean the difference between life and death. Begin by introducing yourself to the injured or ill person. </p><br><br>
+				</div>
+				<div class="col-sm-1"></div>
+			</div><br></br>
+			<div style="width:100%;height:3px;background-color:#0073d6;"></div><br><br>
+		</div>
+		<div>
+		<div class="container info2">
+			<div class="row">
+				
+				<div class="col-sm-6 imgssss">
+					<h1 style="color:white; padding:25px;"><b>PERFORMING FIRST-AID </b></h1>
+					<p  style="color:white; padding-left:25px;">first aid training prepares you to provide care to children, adults, and pets during times of crisis. However, like many things, if you don't use your skills frequently, they're easy to forget. That's why, when you take our first aid certification classes, you'll also receive free online access to our first aid refreshers and a printable list of the basic steps for performing first aid. This way, you can practice your skills regularly, and keep reminders in the places you might need them most, like in the first aid kit in your</p>
+					<a id="start" href="firstaid.html" style="margin-left:40%;"><b>START&#8655;</b></a><br>
+				</div>
+				<div class="col-sm-5 ">
+					<img class="imgsssss" src="img11.jpeg" height=350px>
+				</div>
+				<div class="col-sm-1"></div>
+				
+			</div>
+			
+		</div>
+		
+		<div class="container info1"><br>
+		<br><br><div style="width:100%;height:3px;background-color:#0073d6;"></div><br><br>
+			<div class="row">
+			<div class="col-sm-1"></div>
+				<div class="col-sm-5 imgsss">
+					<img src="img10.jpg" style="width:450px;height:330px;box-shadow:1px 1px 2px 2px;">
+				</div>
+				<div class="col-sm-6">
+				<h1><b>Lack of first aid skills endangers up to <span style="color:#0073d6;">150,000 lives</span></span></b></h1><br>
+				<h4>Thousands who die each year from blocked airways and heart attacks 'could be saved with first aid'</h4><br>
+				<p style="color:#5c5c5c;">Up to 150,000 people a year could be dying unnecessarily because first aid is not widely enough known, a charity warns today.
+
+Situations where first aid could potentially make a difference include suffocations due to blocked airways, which claim 2,500 lives every year, and heart attacks, which kill 29,000. </p><br><br>
+				</div>
+								
+				
+			</div><br></br>
+			<div style="width:100%;height:3px;background-color:#0073d6;"></div><br><br>
+		</div>
+		<div>
+		
+		</div>
+		<div class="container indexinfo1">
+			<h1 style="color:#0073d6;text-align:center;"><b>FAST-AID SERVICES</b></h1><br>
+			<div class="row">
+				<div class="col-sm-3 indexinfosub">
+					<div class="card indexinfosub1" style="width:100%;">
+						<a href="contactus.html"><img class="card-img-top" src="img6.jpg"></a>
+						
+						<div class="card-body">
+							<h4 class="card-title">CONTACT WITH US</h4>
+							<br>
+							<a href="contactus.html" class="indexinfobtn">Read More &#8594;</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3 indexinfosub">
+					<div class="card indexinfosub1" style="width:100%;">
+						<a href="aboutus.html"><img class="card-img-top" src="img4.png"></a>
+						<div class="card-body">
+							<h4 class="card-title">KNOW ABOUT US</h4>
+							<br>
+							<a href="aboutus.html" class="indexinfobtn">Read More &#8594;</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3 indexinfosub">
+					<div class="card indexinfosub1" style="width:100%;">
+						<a href="quiz.html"><img class="card-img-top" src="img2.jpg"></a>
+						<div class="card-body">
+							<h4 class="card-title">TRY QUIZ</h4>
+							<br>
+							<a href="quiz.html" class="indexinfobtn">Read More &#8594;</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3 indexinfosub">
+					<div class="card indexinfosub1" style="width:100%;">
+						<a href="resources.html"><img class="card-img-top" src="img7.jpg"></a>
+						<div class="card-body">
+							<h4 class="card-title">CHECK RESOURCES</h4>
+							<br>
+							<a href="resources.html" class="indexinfobtn">Read More &#8594;</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<br><br><div style="width:100%;height:3px;background-color:#0073d6;"></div><br><br>
+		</div>
+		
+		<div class="container ytvideos" style="100%">
+			<h1 style="color:#0073d6;text-align:center;"><b>SOME VIDEOS</b></h1>
+				
+			<br>
+			<br>
+			<div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-4"><iframe  src="https://www.youtube.com/embed/iQwfvMu9VyE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+			
+			<div class="col-sm-4"><iframe src="https://www.youtube.com/embed/DQ7JPNgU8Wg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+			<div class="col-sm-2"></div>
+		</div><br></div><br>
+<footer>
+	<div class="container-fluid footers" style="background-color:#0073d6;">
+		<div class="row">
+			<div class="col-sm-5">
+				<h1 style="font-family:Georgia; color:white;text-align:center;margin-top:40px;"><b><span style="font-size:50px;">&#8653</span><i>FAST-AID</i></b></h1>
+				<p style="text-align:center;color:white;"><b>First aid refers to the immediate care you should provide when a person is injured, poisoned, or sick. The goal is to ease the pain or reduce its potential from worsening before they receive full treatment. During these critical scenarios, you need to continue providing assistance to the person until the rescue team arrives in the area.</b></p>
+			</div>
+			<div class="col-sm-4 footer3" style="padding:45px;color:white;" >
+			<h1 id="ft3"><b>Explore</b></h1>
+			<div class="row c2">
+			<div class="col-sm-7">
+			<a class="footers2" href="index.html" > > Home</a><br>
+			<a class="footers2" href="aboutus.html" >> AboutUs</a><br>
+			<a class="footers2" href="firstaid.html" >> FirstAid</a><br>
+			<a class="footers2" href="contactus.html" >> ContactUs</a><br></div>
+			<div class="col-sm-5">
+			<a class="footers2" href="resources.html" >> Resources</a><br>
+			<a class="footers2" href="quiz.html" >> Quiz</a></div>
+			</div>
+			
+			</div>
+			<div class="col-sm-3">
+				<h1 style="color:white;margin-top:40px;text-align:center;"><b>Follow Us</b></h1>
+				<div style="text-align:center;">
+				<a style="padding:10px;font-size:25px; color:#0073d6; background-color:white;border-radius:25px;margin:10px;" class="fa fa-twitter footerloggs" ></a>
+				<a style="padding:10px;font-size:25px; color:#0073d6; background-color:white;border-radius:25px;margin:10px;" class="fa fa-linkedin footerloggs" ></a>
+				<a style="padding:10px;font-size:25px; color:#0073d6; background-color:white;border-radius:35px;margin:10px;" class="fa fa-facebook footerloggs" ></a>
+				<a style="padding:10px;font-size:25px; color:#0073d6; background-color:white;border-radius:25px;margin:10px;" class="fa fa-instagram footerloggs" ></a>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid footlast" >
+		<div style="width:100%;height:1px;color:white;"></div>
+		<h1 style="padding:25px;font-size:25px;">2023 © FastAidd, All Rights Reserved</h1>
+	</div>
+</footer>		
+ 
+</html>

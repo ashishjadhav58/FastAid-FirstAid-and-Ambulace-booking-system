@@ -1,0 +1,151 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+		<link rel="stylesheet" href="STYLING.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+		<script src="contactus.js"></script>
+		<title>FastAidd</title>
+		<link rel="icon" type="image/jpg" href="logo.jpg">
+		<style>
+			.fainfosub1{
+				margin:65px;
+				text-align: center;
+				box-shadow: 1px 1px 10px 1px #000000;
+				background-color: #0073d6;
+				color: white;
+			}
+			.fainfosub1:hover{
+				border: 0px solid black;
+				box-shadow: 2px 2px 15px 2px black;
+			}
+			.textfa{
+					color: white;
+					text-decoration: none;
+					font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+					font-size: 20px;
+			}
+			.textfa:hover{
+					color: black;
+					font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+					font-size: 20px;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<header>
+			<nav style="background-color:white;">
+				<div class="container-fluid navss">
+					<div class="row">
+					<div class="col-sm-3  logo">
+						
+						
+						<h2 id="logo1" > <span style="font-size:45px;">&#8653</span><i>FAST-AID</i></h2>
+						  <div id="menus3bar"><a href="#" style="text-decoration:none;" onclick="newmenu()"><b>&#xFE19 </b> </a></div>
+						<div id="logo2"><p style="margin:0px;">   Be the first to help<p></div><br>
+						<p id="logo3" style="margin-top:0px;"><u><b>FIRST AID IS BETTER THAN LAST!</b></u></p>
+					</div>
+						<div class="col-sm-6">
+							<h1></h1>
+							<ul class="navs">
+							<a class="navsel" href="index.html" ><b>HOME</b></a>
+							<a class="navsel" href="aboutus.html"><b>ABOUTUS</b></a>
+							<a class="navsel" href="firstaid.html" style="background-color:#0073d6;color:white;"><b>FIRSTAID</b></a>
+							<a class="navsel" href="contactus.html"><b>CONTACTUS</b></a>
+							<a class="navsel" href="resources.html"><b>AMBULANCE</b></a>
+							<a class="navsel" href="quiz.html"><b>QUIZ</b></a>
+							</ul>
+						</div>
+						<div class="col-sm-2 search1">
+							
+							<form class="navsearch">
+							<input id="serchh" type="text" class="form-control" placeholder="Search" required>
+							</form>
+							
+						</div>
+						<div class="col-sm-1 search2">
+							<button id="submitsss" onclick="searchsub()" type="submit" class="btn btn-primary" style="margin-top:40px;padding:10px;text-align:left;border-radius:25px;"><i class="fa fa-search"></i></button>
+						</div>
+						</div>
+						
+						
+						<div id="mobilenavss">
+			<h1 id="mbicancel1" style="text-align:right; line-height:1;" onclick="closemwnu()">
+				<b>&#9587;</b>
+			</h1>
+			<form id="manusearch"><br>
+			<input  type="text" style="width:80%;border:2px solid white;box-shadow:2px 1px 11px 2px #0073d6;" placeholder="   Search.." name="search">
+			<a type="submit"> <i class="fa fa-search" style="color:white;size:15px;background-color:#0073d6;padding:9px;border-radius:15px;" ></i></a><hr>
+			</form>
+			<a class="mobilenavssel" href="index.html" >Home</a><hr><br>
+			<a class="mobilenavssel" href="aboutus.html" >AboutUs</a><hr><br>
+			<a class="mobilenavssel" href="firstaid.html" >FirstAid</a><hr><br>
+			<a class="mobilenavssel" href="contactus.html" >ContactUs</a><hr><br>
+			<a class="mobilenavssel" href="resources.html" >Ambulance</a><hr><br>
+			<a class="mobilenavssel" href="quiz.html" >Quiz</a><br>
+		</div>
+						
+					</div>
+					<div class="navend" style="background-color:black;width:100%;height:1px;">
+				</div>
+				
+				</div>
+				
+			</nav>
+		</header>
+		
+		<div class="container"><br>
+			<h1 id="HeadName" style="text-align:center;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color:#0073d6">SNAKE BITE</h1><br>
+			<h2 id="secondName" style="text-align:center">First aid for Snake Bites</h2><br>
+			<div class="row">
+				<div class="col-sm-2"></div>
+				<div class="col-sm-8">
+				<b><p id="infoM" style="text-align:justify;color:#0073d6;"> Immediately move away from the area where the bite occurred. If the snake is still attached use a stick or tool to make it let go. Sea snake victims need to be moved to dry land to avoid drowning.<br> <br>Remove anything tight from around the bitten part of the body (e.g.: rings, anklets, bracelets) as these can cause harm if swelling occurs.	<br><br>Reassure the victim. Many snake bites are caused by non-venomous snakes. And even after most venomous snake bites the risk of death is not immediate.<br><br>Immobilize the person completely. Splint the limb to keep it still. Use a makeshift stretcher to carry the person to a place where transport is available to take them to a health facility.<br><br>Never use a tight arterial tourniquet.<br><br>The Australian Pressure Immobilization Bandage (PIB) Method is only recommended for bites by neurotoxic snakes that do not cause local swelling.<br><br>Applying pressure at the bite site with a pressure pad may be suitable in some cases.<br><br>Avoid traditional first aid methods, herbal medicines and other unproven or unsafe forms of first aid.<br><br>Transport the person to a health facility as soon as possible<br><br>Paracetamol may be given for local pain (which can be severe).<br><br>Vomiting may occur, so place the person on their left side in the recovery position.<br><br>Closely monitor airway and breathing and be ready to resuscitate if necessary.</p></b><br>
+				</div>
+				<div class="col-sm-2"></div>
+			</div>
+		</div>
+<footer>
+	<div class="container-fluid footers" style="background-color:#0073d6;">
+		<div class="row">
+			<div class="col-sm-5">
+				<h1 style="font-family:Georgia; color:white;text-align:center;margin-top:40px;"><b><span style="font-size:50px;">&#8653</span><i>FAST-AID</i></b></h1>
+				<p style="text-align:center;color:white;"><b>First aid refers to the immediate care you should provide when a person is injured, poisoned, or sick. The goal is to ease the pain or reduce its potential from worsening before they receive full treatment. During these critical scenarios, you need to continue providing assistance to the person until the rescue team arrives in the area.</b></p>
+			</div>
+			<div class="col-sm-4 footer3" style="padding:45px;color:white;" >
+			<h1 id="ft3"><b>Explore</b></h1>
+			<div class="row c2">
+			<div class="col-sm-7">
+			<a class="footers2" href="index.html" > > Home</a><br>
+			<a class="footers2" href="aboutus.html" >> AboutUs</a><br>
+			<a class="footers2" href="firstaid.html" >> FirstAid</a><br>
+			<a class="footers2" href="contactus.html" >> ContactUs</a><br></div>
+			<div class="col-sm-5">
+			<a class="footers2" href="resources2.html" >> Resources</a><br>
+			<a class="footers2" href="quiz" >> Quiz</a></div>
+			</div>
+			
+			</div>
+			<div class="col-sm-3">
+				<h1 style="color:white;margin-top:40px;text-align:center;"><b>Follow Us</b></h1>
+				<div style="text-align:center;">
+				<a style="padding:10px;font-size:25px; color:#0073d6; background-color:white;border-radius:25px;margin:10px;" class="fa fa-twitter footerloggs" ></a>
+				<a style="padding:10px;font-size:25px; color:#0073d6; background-color:white;border-radius:25px;margin:10px;" class="fa fa-linkedin footerloggs" ></a>
+				<a style="padding:10px;font-size:25px; color:#0073d6; background-color:white;border-radius:35px;margin:10px;" class="fa fa-facebook footerloggs" ></a>
+				<a style="padding:10px;font-size:25px; color:#0073d6; background-color:white;border-radius:25px;margin:10px;" class="fa fa-instagram footerloggs" ></a>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid footlast" >
+		<div style="width:100%;height:1px;color:white;"></div>
+		<h1 style="padding:25px;font-size:25px;">2023 © FastAidd, All Rights Reserved</h1>
+	</div>
+</footer>		
+ 
+</html>

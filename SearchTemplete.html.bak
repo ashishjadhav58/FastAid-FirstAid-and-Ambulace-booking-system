@@ -1,0 +1,29 @@
+<html>
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</form>
+	</head>
+	<body>
+	<div style="text-align:center;padding:300px;"> 
+		<form class="example">
+		 <button id="search1" onclick="fun();" type="submit" style="width:30px;height:30px;padding:5px;border-radius:10px;background:#0073d6;color:white;border:2px solid #0073d6;"><i class="fa fa-search"></i></button>
+  <input id="search2" type="text" placeholder="Search.." name="search" style="border-radius:5px;padding:5px;">
+	</div>
+	<script>
+			document.getElementById("search2").style.display = "none";
+		function fun(){
+			document.getElementById("search2").style.display = "block";
+			document.getElementByClass("search1").style.display = "block";
+		}
+		function hi(){
+		var ele = document.getElementsByTagName('input');
+		document.getElementById("oyy").innerHTML= "ele";
+		}
+	</script>
+	</body>
+	<input type="radio" class="op" name="optionq1" value="male">Male
+	<input type="radio" class="op" name="optionq1" value="female">female
+	<button onclick="hi">helo</button>
+	<h1 id="oyy">ijidjci</h1>
+</html>

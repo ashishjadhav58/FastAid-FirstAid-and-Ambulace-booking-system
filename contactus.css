@@ -1,0 +1,48 @@
+.contactpg{
+	border:3px solid #0073d6;
+	padding:55px;
+	box-shadow:2px 2px 2px 2px #0073d6;
+	
+}
+.contactpg:hover{
+	box-shadow:2px 1px 15px 2px #0073d6;
+}
+#cusuumb{
+	color:white;
+	background-color:#0073d6;
+	padding:20px;
+	border:0px solid white;
+	text-decoration:none;
+	margin-left:40%;
+}
+#cusuumb:hover{
+	background-color:white;
+	color:#0073d6;
+}
+#mobilenavss{
+	display:none;
+}
+#cityerr{
+	color:red;
+	display:none;
+}
+#countryerr{
+	color:red;
+	display:none;
+}
+#moberr{
+	color:red;
+	display:none;
+}
+#nameerr{
+	color:red;
+	display:none;
+}
+#emailerr{
+	color:red;
+	display:none;
+}
+.reshead{
+		color:#0073d6;
+
+}
